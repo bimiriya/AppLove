@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -27,6 +28,9 @@ img {
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .container:before, .container:after {
@@ -44,6 +48,7 @@ img {
   clear: both;
 }
 
+/*
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -55,6 +60,7 @@ img {
 .m-0 {
   margin: 0px;
 }
+*/
 
 a {
   color: #373B47;
@@ -71,3 +77,175 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+/*----------start of HEADER styling----------*/
+header {
+  position: fixed;
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 3; 
+} 
+
+header div {
+  display: inline-block;
+  padding: 34px;
+  width: 60%;
+  margin-left: 8%; /* done with % so that browser window is able to resize */
+}
+
+header a {
+  margin-right: 50px;
+  font-weight: bolder;
+}
+
+/*far right logo*/
+header img {
+  position: relative;
+  float: right;
+  margin-right: 10%;
+  width: 70px;
+  padding-top: 13px;
+}
+/*----------end of HEADER styling----------*/
+
+
+
+/*----------start of section HOME styling----------*/
+#home {
+  padding-top: 90px;
+  width: 100%;
+  position: relative; /* to position <#home div> on top without problems */
+}
+
+#home div {
+  position: absolute;
+  top: 27%;
+  margin: auto;
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+}
+
+/*you just found an untilmate*/
+#home h2 {
+  margin-bottom: 5%;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+/*We are applove from heart*/
+#home h1 {
+  font-size: 4vw;
+  margin: 0;
+  font-weight: bolder;
+}
+
+#home p {
+  font-weight: 100;
+  margin: 0 0 7%;
+}
+
+/*view services button*/
+#home a {
+  padding: 14px 18px;
+  background: #2ECC71;
+  font-size: 14px;
+  color: white;
+}
+
+/*background img*/
+#home img {
+  width: 100%;
+}
+/*----------end of section HOME styling----------*/
+
+
+
+/*----------start of section SERVICES styling----------*/
+#services {
+  background: #F17C72;
+  color: white;
+  text-align: center;
+  padding: 70px 0 80px; /* padding-top so that links above redirect to section title onscreen */
+  width: 100%;
+}
+
+#services .container {
+  width: 100%;
+}
+
+/*services title*/
+#services h2 {
+  font-size: 2.5vw;
+  font-weight: bolder;
+}
+
+/*tables with round imgs*/
+#samples {
+  display: inline-table;
+  margin-top: 60px;
+  width: 20%;
+  margin: 0 4%;
+}
+
+/*titles inside tables*/
+#samples h5, #samples h6 {
+  margin: 0;
+}
+
+/*round imgs in tables*/
+#services img {
+  margin-bottom: 10%;
+}
+/*----------end of middle section SERVICES styling----------*/
+
+
+
+/*----------start of last section WORK styling----------*/
+#work {
+  padding-top: 60px; /* padding-top so that links above redirect to section title onscreen */
+}
+
+#work .container {
+  color: black;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+/*work title*/
+#work h2 {
+  font-size: 2.5vw;
+  font-weight: bolder;
+}
+
+/*img under title-description*/
+.container img {
+  width: 80%;
+  margin: 30px;
+}
+
+/*rows of imgs with title underneath*/
+#projects div {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 30%;
+}
+
+#projects img {
+  margin: 0 10%;
+}
+/*----------end of last section WORK styling----------*/
+
+
+
+/*----------start of page FOOTER styling----------*/
+footer {
+  display: inline-block;
+  background: #373B47;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 7px 0;
+}
+/*----------end of page FOOTER styling----------*/
